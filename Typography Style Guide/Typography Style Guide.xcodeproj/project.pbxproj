@@ -20,6 +20,16 @@
 		F7A0C6671EC8D81B005B96F8 /* TextStyle+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C6661EC8D81B005B96F8 /* TextStyle+Attributes.swift */; };
 		F7A0C6691EC8D8F9005B96F8 /* TextStyleColumn+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C6681EC8D8F9005B96F8 /* TextStyleColumn+Color.swift */; };
 		F7A0C6731EC8DFA0005B96F8 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C6721EC8DFA0005B96F8 /* UIColor+Hex.swift */; };
+		F7A0C67D1EC8E1E9005B96F8 /* TextStyleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C67C1EC8E1E9005B96F8 /* TextStyleable.swift */; };
+		F7A0C6821EC8E228005B96F8 /* TextStyleableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C6811EC8E228005B96F8 /* TextStyleableLabel.swift */; };
+		F7A0C6861EC8E47B005B96F8 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C6851EC8E47B005B96F8 /* Labels.swift */; };
+		F7A0C6871EC8E70F005B96F8 /* FreightText Pro Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A0C6741EC8E032005B96F8 /* FreightText Pro Bold Italic.otf */; };
+		F7A0C6881EC8E70F005B96F8 /* FreightText Pro Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A0C6751EC8E032005B96F8 /* FreightText Pro Light.otf */; };
+		F7A0C6891EC8E70F005B96F8 /* FuturaStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A0C6761EC8E032005B96F8 /* FuturaStd-Bold.otf */; };
+		F7A0C68A1EC8E70F005B96F8 /* FuturaStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A0C6771EC8E032005B96F8 /* FuturaStd-Book.otf */; };
+		F7A0C68B1EC8E70F005B96F8 /* FuturaStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A0C6781EC8E032005B96F8 /* FuturaStd-Medium.otf */; };
+		F7A0C68C1EC8E70F005B96F8 /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A0C6791EC8E032005B96F8 /* Gotham-Book.otf */; };
+		F7A0C68D1EC8E70F005B96F8 /* Gotham-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A0C67A1EC8E032005B96F8 /* Gotham-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +55,9 @@
 		F7A0C6781EC8E032005B96F8 /* FuturaStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FuturaStd-Medium.otf"; path = "Text Styles/Fonts/FuturaStd-Medium.otf"; sourceTree = "<group>"; };
 		F7A0C6791EC8E032005B96F8 /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Book.otf"; path = "Text Styles/Fonts/Gotham-Book.otf"; sourceTree = "<group>"; };
 		F7A0C67A1EC8E032005B96F8 /* Gotham-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Medium.otf"; path = "Text Styles/Fonts/Gotham-Medium.otf"; sourceTree = "<group>"; };
+		F7A0C67C1EC8E1E9005B96F8 /* TextStyleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextStyleable.swift; path = "Styleable Components/TextStyleable.swift"; sourceTree = "<group>"; };
+		F7A0C6811EC8E228005B96F8 /* TextStyleableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextStyleableLabel.swift; path = "Styleable Components/Labels/TextStyleableLabel.swift"; sourceTree = "<group>"; };
+		F7A0C6851EC8E47B005B96F8 /* Labels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Labels.swift; path = "Styleable Components/Labels/Labels.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +92,7 @@
 			children = (
 				F7A0C6471EC8CF4F005B96F8 /* AppDelegate.swift */,
 				F7A0C6491EC8CF4F005B96F8 /* ViewController.swift */,
+				F7A0C67B1EC8E1D3005B96F8 /* Styleable Components */,
 				F7A0C6591EC8D0A9005B96F8 /* Text Styles */,
 				F7A0C64B1EC8CF4F005B96F8 /* Main.storyboard */,
 				F7A0C64E1EC8CF4F005B96F8 /* Assets.xcassets */,
@@ -132,6 +146,40 @@
 				F7A0C67A1EC8E032005B96F8 /* Gotham-Medium.otf */,
 			);
 			name = Fonts;
+			sourceTree = "<group>";
+		};
+		F7A0C67B1EC8E1D3005B96F8 /* Styleable Components */ = {
+			isa = PBXGroup;
+			children = (
+				F7A0C67C1EC8E1E9005B96F8 /* TextStyleable.swift */,
+				F7A0C6801EC8E1FC005B96F8 /* Text Fields */,
+				F7A0C67F1EC8E1F6005B96F8 /* Buttons */,
+				F7A0C67E1EC8E1F1005B96F8 /* Labels */,
+			);
+			name = "Styleable Components";
+			sourceTree = "<group>";
+		};
+		F7A0C67E1EC8E1F1005B96F8 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				F7A0C6811EC8E228005B96F8 /* TextStyleableLabel.swift */,
+				F7A0C6851EC8E47B005B96F8 /* Labels.swift */,
+			);
+			name = Labels;
+			sourceTree = "<group>";
+		};
+		F7A0C67F1EC8E1F6005B96F8 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		F7A0C6801EC8E1FC005B96F8 /* Text Fields */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Text Fields";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,9 +241,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A0C6871EC8E70F005B96F8 /* FreightText Pro Bold Italic.otf in Resources */,
 				F7A0C6521EC8CF4F005B96F8 /* LaunchScreen.storyboard in Resources */,
+				F7A0C6881EC8E70F005B96F8 /* FreightText Pro Light.otf in Resources */,
+				F7A0C68B1EC8E70F005B96F8 /* FuturaStd-Medium.otf in Resources */,
+				F7A0C68D1EC8E70F005B96F8 /* Gotham-Medium.otf in Resources */,
 				F7A0C64F1EC8CF4F005B96F8 /* Assets.xcassets in Resources */,
+				F7A0C68A1EC8E70F005B96F8 /* FuturaStd-Book.otf in Resources */,
+				F7A0C68C1EC8E70F005B96F8 /* Gotham-Book.otf in Resources */,
 				F7A0C64D1EC8CF4F005B96F8 /* Main.storyboard in Resources */,
+				F7A0C6891EC8E70F005B96F8 /* FuturaStd-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +266,12 @@
 				F7A0C6651EC8D78B005B96F8 /* TextStyleRow+Spacing.swift in Sources */,
 				F7A0C65F1EC8D321005B96F8 /* TextStyleColumn.swift in Sources */,
 				F7A0C65B1EC8D0C2005B96F8 /* TextStyle.swift in Sources */,
+				F7A0C6861EC8E47B005B96F8 /* Labels.swift in Sources */,
 				F7A0C6631EC8D717005B96F8 /* TextStyleRow+Font.swift in Sources */,
 				F7A0C64A1EC8CF4F005B96F8 /* ViewController.swift in Sources */,
 				F7A0C6481EC8CF4F005B96F8 /* AppDelegate.swift in Sources */,
+				F7A0C67D1EC8E1E9005B96F8 /* TextStyleable.swift in Sources */,
+				F7A0C6821EC8E228005B96F8 /* TextStyleableLabel.swift in Sources */,
 				F7A0C65D1EC8D2FD005B96F8 /* TextStyleRow.swift in Sources */,
 				F7A0C6731EC8DFA0005B96F8 /* UIColor+Hex.swift in Sources */,
 			);

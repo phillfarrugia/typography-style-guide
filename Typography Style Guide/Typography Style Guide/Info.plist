@@ -28,6 +28,16 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>FreightText Pro Bold Italic.otf</string>
+		<string>FreightText Pro Light.otf</string>
+		<string>FuturaStd-Bold.otf</string>
+		<string>FuturaStd-Book.otf</string>
+		<string>FuturaStd-Medium.otf</string>
+		<string>Gotham-Book.otf</string>
+		<string>Gotham-Medium.otf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

@@ -38,6 +38,22 @@ extension TextStyle {
         return [
             NSFontAttributeName: row.font,
             NSKernAttributeName: NSNumber(value: row.letterSpacing),
+            NSForegroundColorAttributeName: column.color
+        ]
+    }
+    
+    /// Constructs a TextAttributes dictionary with a given font,
+    /// letter spacing and line spacing.
+    ///
+    /// - Parameters:
+    ///   - font: font to add to attributes
+    ///   - letterSpacing: letter spacing to add to attributes
+    ///   - lineSpacing: line spacing to add to attributes
+    /// - Returns: attributed string dictionary
+    internal var multilineAttributes: TextAttributes {
+        return [
+            NSFontAttributeName: row.font,
+            NSKernAttributeName: NSNumber(value: row.letterSpacing),
             NSParagraphStyleAttributeName: TextStyle.paragraphStyle(row.lineSpacing),
             NSForegroundColorAttributeName: column.color
         ]

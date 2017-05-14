@@ -15,15 +15,15 @@ extension TextStyleColumn {
     public var color: UIColor {
         switch self {
         case .c1:
-            return UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
+            return UIColor("#4FC4B3")
         case .c2:
-            return UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
+            return UIColor("#444444")
         case .c3:
-            return UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
+            return UIColor("#979797")
         case .c4:
-            return UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
+            return UIColor("#E45248")
         case .c5:
-            return UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
+            return UIColor("#FFFFFF")
         }
     }
     

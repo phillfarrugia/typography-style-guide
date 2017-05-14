@@ -19,6 +19,7 @@
 		F7A0C6651EC8D78B005B96F8 /* TextStyleRow+Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C6641EC8D78B005B96F8 /* TextStyleRow+Spacing.swift */; };
 		F7A0C6671EC8D81B005B96F8 /* TextStyle+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C6661EC8D81B005B96F8 /* TextStyle+Attributes.swift */; };
 		F7A0C6691EC8D8F9005B96F8 /* TextStyleColumn+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C6681EC8D8F9005B96F8 /* TextStyleColumn+Color.swift */; };
+		F7A0C6731EC8DFA0005B96F8 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C6721EC8DFA0005B96F8 /* UIColor+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,14 @@
 		F7A0C6641EC8D78B005B96F8 /* TextStyleRow+Spacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TextStyleRow+Spacing.swift"; path = "Text Styles/Row/TextStyleRow+Spacing.swift"; sourceTree = "<group>"; };
 		F7A0C6661EC8D81B005B96F8 /* TextStyle+Attributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TextStyle+Attributes.swift"; path = "Text Styles/Row/TextStyle+Attributes.swift"; sourceTree = "<group>"; };
 		F7A0C6681EC8D8F9005B96F8 /* TextStyleColumn+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TextStyleColumn+Color.swift"; path = "Text Styles/Column/TextStyleColumn+Color.swift"; sourceTree = "<group>"; };
+		F7A0C6721EC8DFA0005B96F8 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "Text Styles/Column/UIColor+Hex.swift"; sourceTree = "<group>"; };
+		F7A0C6741EC8E032005B96F8 /* FreightText Pro Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FreightText Pro Bold Italic.otf"; path = "Text Styles/Fonts/FreightText Pro Bold Italic.otf"; sourceTree = "<group>"; };
+		F7A0C6751EC8E032005B96F8 /* FreightText Pro Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FreightText Pro Light.otf"; path = "Text Styles/Fonts/FreightText Pro Light.otf"; sourceTree = "<group>"; };
+		F7A0C6761EC8E032005B96F8 /* FuturaStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FuturaStd-Bold.otf"; path = "Text Styles/Fonts/FuturaStd-Bold.otf"; sourceTree = "<group>"; };
+		F7A0C6771EC8E032005B96F8 /* FuturaStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FuturaStd-Book.otf"; path = "Text Styles/Fonts/FuturaStd-Book.otf"; sourceTree = "<group>"; };
+		F7A0C6781EC8E032005B96F8 /* FuturaStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FuturaStd-Medium.otf"; path = "Text Styles/Fonts/FuturaStd-Medium.otf"; sourceTree = "<group>"; };
+		F7A0C6791EC8E032005B96F8 /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Book.otf"; path = "Text Styles/Fonts/Gotham-Book.otf"; sourceTree = "<group>"; };
+		F7A0C67A1EC8E032005B96F8 /* Gotham-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Medium.otf"; path = "Text Styles/Fonts/Gotham-Medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +102,7 @@
 		F7A0C6601EC8D6F8005B96F8 /* Row */ = {
 			isa = PBXGroup;
 			children = (
+				F7A0C66A1EC8DD70005B96F8 /* Fonts */,
 				F7A0C65C1EC8D2FD005B96F8 /* TextStyleRow.swift */,
 				F7A0C6621EC8D717005B96F8 /* TextStyleRow+Font.swift */,
 				F7A0C6641EC8D78B005B96F8 /* TextStyleRow+Spacing.swift */,
@@ -105,8 +115,23 @@
 			children = (
 				F7A0C65E1EC8D321005B96F8 /* TextStyleColumn.swift */,
 				F7A0C6681EC8D8F9005B96F8 /* TextStyleColumn+Color.swift */,
+				F7A0C6721EC8DFA0005B96F8 /* UIColor+Hex.swift */,
 			);
 			name = Column;
+			sourceTree = "<group>";
+		};
+		F7A0C66A1EC8DD70005B96F8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F7A0C6741EC8E032005B96F8 /* FreightText Pro Bold Italic.otf */,
+				F7A0C6751EC8E032005B96F8 /* FreightText Pro Light.otf */,
+				F7A0C6761EC8E032005B96F8 /* FuturaStd-Bold.otf */,
+				F7A0C6771EC8E032005B96F8 /* FuturaStd-Book.otf */,
+				F7A0C6781EC8E032005B96F8 /* FuturaStd-Medium.otf */,
+				F7A0C6791EC8E032005B96F8 /* Gotham-Book.otf */,
+				F7A0C67A1EC8E032005B96F8 /* Gotham-Medium.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +215,7 @@
 				F7A0C64A1EC8CF4F005B96F8 /* ViewController.swift in Sources */,
 				F7A0C6481EC8CF4F005B96F8 /* AppDelegate.swift in Sources */,
 				F7A0C65D1EC8D2FD005B96F8 /* TextStyleRow.swift in Sources */,
+				F7A0C6731EC8DFA0005B96F8 /* UIColor+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

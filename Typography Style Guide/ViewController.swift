@@ -9,10 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    @IBOutlet weak var stepsLabel: R1C3Label!
+    @IBOutlet weak var headerLabel: R3C1Label!
+    
+    @IBOutlet weak var firstNameView: UIView!
+    @IBOutlet weak var lastNameView: UIView!
+    @IBOutlet weak var addressLine1View: UIView!
+    @IBOutlet weak var addressLine2View: UIView!
+    @IBOutlet weak var cityView: UIView!
+    @IBOutlet weak var stateView: UIView!
+    @IBOutlet weak var zipCode: UIView!
+    @IBOutlet weak var phoneNumberView: UIView!
+    
+    @IBOutlet weak var nextButton: R2C5Button!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        KeyboardAvoiding.avoidingView = scrollView
     }
 
 }

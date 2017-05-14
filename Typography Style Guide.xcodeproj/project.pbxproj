@@ -34,6 +34,10 @@
 		F7B417721EC8EE3E0075EB65 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B417711EC8EE3E0075EB65 /* TextFields.swift */; };
 		F7B417781EC8FAE40075EB65 /* StyleableNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B417771EC8FAE40075EB65 /* StyleableNavigationController.swift */; };
 		F7B4177A1EC8FB090075EB65 /* WhiteStyledNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B417791EC8FB090075EB65 /* WhiteStyledNavigationController.swift */; };
+		F7B4177C1EC8FC840075EB65 /* TextStyleableButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4177B1EC8FC840075EB65 /* TextStyleableButtons.swift */; };
+		F7B4177E1EC8FCE10075EB65 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4177D1EC8FCE10075EB65 /* Buttons.swift */; };
+		F7B417821EC8FF320075EB65 /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B417801EC8FF320075EB65 /* KeyboardDismissingView.swift */; };
+		F7B417831EC8FF320075EB65 /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B417811EC8FF320075EB65 /* KeyboardAvoiding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +71,10 @@
 		F7B417711EC8EE3E0075EB65 /* TextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextFields.swift; path = "Styleable Components/Text Fields/TextFields.swift"; sourceTree = "<group>"; };
 		F7B417771EC8FAE40075EB65 /* StyleableNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StyleableNavigationController.swift; path = NavigationController/StyleableNavigationController.swift; sourceTree = "<group>"; };
 		F7B417791EC8FB090075EB65 /* WhiteStyledNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WhiteStyledNavigationController.swift; path = NavigationController/WhiteStyledNavigationController.swift; sourceTree = "<group>"; };
+		F7B4177B1EC8FC840075EB65 /* TextStyleableButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextStyleableButtons.swift; path = "Styleable Components/Buttons/TextStyleableButtons.swift"; sourceTree = "<group>"; };
+		F7B4177D1EC8FCE10075EB65 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Buttons.swift; path = "Styleable Components/Buttons/Buttons.swift"; sourceTree = "<group>"; };
+		F7B417801EC8FF320075EB65 /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardDismissingView.swift; path = ../../../Desktop/KeyboardDismissingView.swift; sourceTree = "<group>"; };
+		F7B417811EC8FF320075EB65 /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardAvoiding.swift; path = ../../../Desktop/KeyboardAvoiding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,7 @@
 			children = (
 				F7A0C6471EC8CF4F005B96F8 /* AppDelegate.swift */,
 				F7A0C6491EC8CF4F005B96F8 /* ViewController.swift */,
+				F7B4177F1EC8FF270075EB65 /* Third Party */,
 				F7B417761EC8FACD0075EB65 /* Navigation Controller */,
 				F7A0C67B1EC8E1D3005B96F8 /* Styleable Components */,
 				F7A0C6591EC8D0A9005B96F8 /* Text Styles */,
@@ -182,6 +191,8 @@
 		F7A0C67F1EC8E1F6005B96F8 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				F7B4177B1EC8FC840075EB65 /* TextStyleableButtons.swift */,
+				F7B4177D1EC8FCE10075EB65 /* Buttons.swift */,
 			);
 			name = Buttons;
 			sourceTree = "<group>";
@@ -210,6 +221,15 @@
 				F7B417791EC8FB090075EB65 /* WhiteStyledNavigationController.swift */,
 			);
 			name = "Navigation Controller";
+			sourceTree = "<group>";
+		};
+		F7B4177F1EC8FF270075EB65 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				F7B417801EC8FF320075EB65 /* KeyboardDismissingView.swift */,
+				F7B417811EC8FF320075EB65 /* KeyboardAvoiding.swift */,
+			);
+			name = "Third Party";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,16 +316,20 @@
 				F7A0C6651EC8D78B005B96F8 /* TextStyleRow+Spacing.swift in Sources */,
 				F7A0C65F1EC8D321005B96F8 /* TextStyleColumn.swift in Sources */,
 				F7A0C65B1EC8D0C2005B96F8 /* TextStyle.swift in Sources */,
+				F7B417821EC8FF320075EB65 /* KeyboardDismissingView.swift in Sources */,
 				F7B417721EC8EE3E0075EB65 /* TextFields.swift in Sources */,
 				F7B4177A1EC8FB090075EB65 /* WhiteStyledNavigationController.swift in Sources */,
 				F7A0C6861EC8E47B005B96F8 /* Labels.swift in Sources */,
+				F7B4177C1EC8FC840075EB65 /* TextStyleableButtons.swift in Sources */,
 				F7A0C6631EC8D717005B96F8 /* TextStyleRow+Font.swift in Sources */,
 				F7A0C64A1EC8CF4F005B96F8 /* ViewController.swift in Sources */,
 				F7A0C6481EC8CF4F005B96F8 /* AppDelegate.swift in Sources */,
 				F7A0C67D1EC8E1E9005B96F8 /* TextStyleable.swift in Sources */,
 				F7A0C6821EC8E228005B96F8 /* TextStyleableLabel.swift in Sources */,
 				F7A0C65D1EC8D2FD005B96F8 /* TextStyleRow.swift in Sources */,
+				F7B417831EC8FF320075EB65 /* KeyboardAvoiding.swift in Sources */,
 				F7B417701EC8ED870075EB65 /* TextStyleableTextField.swift in Sources */,
+				F7B4177E1EC8FCE10075EB65 /* Buttons.swift in Sources */,
 				F7A0C6731EC8DFA0005B96F8 /* UIColor+Hex.swift in Sources */,
 				F7B417781EC8FAE40075EB65 /* StyleableNavigationController.swift in Sources */,
 			);

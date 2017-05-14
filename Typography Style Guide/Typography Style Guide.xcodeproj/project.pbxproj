@@ -12,6 +12,13 @@
 		F7A0C64D1EC8CF4F005B96F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A0C64B1EC8CF4F005B96F8 /* Main.storyboard */; };
 		F7A0C64F1EC8CF4F005B96F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A0C64E1EC8CF4F005B96F8 /* Assets.xcassets */; };
 		F7A0C6521EC8CF4F005B96F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A0C6501EC8CF4F005B96F8 /* LaunchScreen.storyboard */; };
+		F7A0C65B1EC8D0C2005B96F8 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C65A1EC8D0C2005B96F8 /* TextStyle.swift */; };
+		F7A0C65D1EC8D2FD005B96F8 /* TextStyleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C65C1EC8D2FD005B96F8 /* TextStyleRow.swift */; };
+		F7A0C65F1EC8D321005B96F8 /* TextStyleColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C65E1EC8D321005B96F8 /* TextStyleColumn.swift */; };
+		F7A0C6631EC8D717005B96F8 /* TextStyleRow+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C6621EC8D717005B96F8 /* TextStyleRow+Font.swift */; };
+		F7A0C6651EC8D78B005B96F8 /* TextStyleRow+Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C6641EC8D78B005B96F8 /* TextStyleRow+Spacing.swift */; };
+		F7A0C6671EC8D81B005B96F8 /* TextStyle+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C6661EC8D81B005B96F8 /* TextStyle+Attributes.swift */; };
+		F7A0C6691EC8D8F9005B96F8 /* TextStyleColumn+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0C6681EC8D8F9005B96F8 /* TextStyleColumn+Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		F7A0C64E1EC8CF4F005B96F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7A0C6511EC8CF4F005B96F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7A0C6531EC8CF4F005B96F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A0C65A1EC8D0C2005B96F8 /* TextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextStyle.swift; path = "Text Styles/TextStyle.swift"; sourceTree = "<group>"; };
+		F7A0C65C1EC8D2FD005B96F8 /* TextStyleRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextStyleRow.swift; path = "Text Styles/Row/TextStyleRow.swift"; sourceTree = "<group>"; };
+		F7A0C65E1EC8D321005B96F8 /* TextStyleColumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextStyleColumn.swift; path = "Text Styles/Column/TextStyleColumn.swift"; sourceTree = "<group>"; };
+		F7A0C6621EC8D717005B96F8 /* TextStyleRow+Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TextStyleRow+Font.swift"; path = "Text Styles/Row/TextStyleRow+Font.swift"; sourceTree = "<group>"; };
+		F7A0C6641EC8D78B005B96F8 /* TextStyleRow+Spacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TextStyleRow+Spacing.swift"; path = "Text Styles/Row/TextStyleRow+Spacing.swift"; sourceTree = "<group>"; };
+		F7A0C6661EC8D81B005B96F8 /* TextStyle+Attributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TextStyle+Attributes.swift"; path = "Text Styles/Row/TextStyle+Attributes.swift"; sourceTree = "<group>"; };
+		F7A0C6681EC8D8F9005B96F8 /* TextStyleColumn+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TextStyleColumn+Color.swift"; path = "Text Styles/Column/TextStyleColumn+Color.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +70,43 @@
 			children = (
 				F7A0C6471EC8CF4F005B96F8 /* AppDelegate.swift */,
 				F7A0C6491EC8CF4F005B96F8 /* ViewController.swift */,
+				F7A0C6591EC8D0A9005B96F8 /* Text Styles */,
 				F7A0C64B1EC8CF4F005B96F8 /* Main.storyboard */,
 				F7A0C64E1EC8CF4F005B96F8 /* Assets.xcassets */,
 				F7A0C6501EC8CF4F005B96F8 /* LaunchScreen.storyboard */,
 				F7A0C6531EC8CF4F005B96F8 /* Info.plist */,
 			);
 			path = "Typography Style Guide";
+			sourceTree = "<group>";
+		};
+		F7A0C6591EC8D0A9005B96F8 /* Text Styles */ = {
+			isa = PBXGroup;
+			children = (
+				F7A0C65A1EC8D0C2005B96F8 /* TextStyle.swift */,
+				F7A0C6661EC8D81B005B96F8 /* TextStyle+Attributes.swift */,
+				F7A0C6601EC8D6F8005B96F8 /* Row */,
+				F7A0C6611EC8D6FE005B96F8 /* Column */,
+			);
+			name = "Text Styles";
+			sourceTree = "<group>";
+		};
+		F7A0C6601EC8D6F8005B96F8 /* Row */ = {
+			isa = PBXGroup;
+			children = (
+				F7A0C65C1EC8D2FD005B96F8 /* TextStyleRow.swift */,
+				F7A0C6621EC8D717005B96F8 /* TextStyleRow+Font.swift */,
+				F7A0C6641EC8D78B005B96F8 /* TextStyleRow+Spacing.swift */,
+			);
+			name = Row;
+			sourceTree = "<group>";
+		};
+		F7A0C6611EC8D6FE005B96F8 /* Column */ = {
+			isa = PBXGroup;
+			children = (
+				F7A0C65E1EC8D321005B96F8 /* TextStyleColumn.swift */,
+				F7A0C6681EC8D8F9005B96F8 /* TextStyleColumn+Color.swift */,
+			);
+			name = Column;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +181,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A0C6671EC8D81B005B96F8 /* TextStyle+Attributes.swift in Sources */,
+				F7A0C6691EC8D8F9005B96F8 /* TextStyleColumn+Color.swift in Sources */,
+				F7A0C6651EC8D78B005B96F8 /* TextStyleRow+Spacing.swift in Sources */,
+				F7A0C65F1EC8D321005B96F8 /* TextStyleColumn.swift in Sources */,
+				F7A0C65B1EC8D0C2005B96F8 /* TextStyle.swift in Sources */,
+				F7A0C6631EC8D717005B96F8 /* TextStyleRow+Font.swift in Sources */,
 				F7A0C64A1EC8CF4F005B96F8 /* ViewController.swift in Sources */,
 				F7A0C6481EC8CF4F005B96F8 /* AppDelegate.swift in Sources */,
+				F7A0C65D1EC8D2FD005B96F8 /* TextStyleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

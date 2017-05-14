@@ -32,6 +32,8 @@
 		F7A0C68D1EC8E70F005B96F8 /* Gotham-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A0C67A1EC8E032005B96F8 /* Gotham-Medium.otf */; };
 		F7B417701EC8ED870075EB65 /* TextStyleableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4176F1EC8ED870075EB65 /* TextStyleableTextField.swift */; };
 		F7B417721EC8EE3E0075EB65 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B417711EC8EE3E0075EB65 /* TextFields.swift */; };
+		F7B417781EC8FAE40075EB65 /* StyleableNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B417771EC8FAE40075EB65 /* StyleableNavigationController.swift */; };
+		F7B4177A1EC8FB090075EB65 /* WhiteStyledNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B417791EC8FB090075EB65 /* WhiteStyledNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		F7B4176D1EC8ECBD0075EB65 /* JVFloatLabeledText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JVFloatLabeledText.framework; path = Carthage/Build/iOS/JVFloatLabeledText.framework; sourceTree = "<group>"; };
 		F7B4176F1EC8ED870075EB65 /* TextStyleableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextStyleableTextField.swift; path = "Styleable Components/Text Fields/TextStyleableTextField.swift"; sourceTree = "<group>"; };
 		F7B417711EC8EE3E0075EB65 /* TextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextFields.swift; path = "Styleable Components/Text Fields/TextFields.swift"; sourceTree = "<group>"; };
+		F7B417771EC8FAE40075EB65 /* StyleableNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StyleableNavigationController.swift; path = NavigationController/StyleableNavigationController.swift; sourceTree = "<group>"; };
+		F7B417791EC8FB090075EB65 /* WhiteStyledNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WhiteStyledNavigationController.swift; path = NavigationController/WhiteStyledNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 			children = (
 				F7A0C6471EC8CF4F005B96F8 /* AppDelegate.swift */,
 				F7A0C6491EC8CF4F005B96F8 /* ViewController.swift */,
+				F7B417761EC8FACD0075EB65 /* Navigation Controller */,
 				F7A0C67B1EC8E1D3005B96F8 /* Styleable Components */,
 				F7A0C6591EC8D0A9005B96F8 /* Text Styles */,
 				F7A0C64B1EC8CF4F005B96F8 /* Main.storyboard */,
@@ -198,6 +203,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F7B417761EC8FACD0075EB65 /* Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7B417771EC8FAE40075EB65 /* StyleableNavigationController.swift */,
+				F7B417791EC8FB090075EB65 /* WhiteStyledNavigationController.swift */,
+			);
+			name = "Navigation Controller";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -283,6 +297,7 @@
 				F7A0C65F1EC8D321005B96F8 /* TextStyleColumn.swift in Sources */,
 				F7A0C65B1EC8D0C2005B96F8 /* TextStyle.swift in Sources */,
 				F7B417721EC8EE3E0075EB65 /* TextFields.swift in Sources */,
+				F7B4177A1EC8FB090075EB65 /* WhiteStyledNavigationController.swift in Sources */,
 				F7A0C6861EC8E47B005B96F8 /* Labels.swift in Sources */,
 				F7A0C6631EC8D717005B96F8 /* TextStyleRow+Font.swift in Sources */,
 				F7A0C64A1EC8CF4F005B96F8 /* ViewController.swift in Sources */,
@@ -292,6 +307,7 @@
 				F7A0C65D1EC8D2FD005B96F8 /* TextStyleRow.swift in Sources */,
 				F7B417701EC8ED870075EB65 /* TextStyleableTextField.swift in Sources */,
 				F7A0C6731EC8DFA0005B96F8 /* UIColor+Hex.swift in Sources */,
+				F7B417781EC8FAE40075EB65 /* StyleableNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

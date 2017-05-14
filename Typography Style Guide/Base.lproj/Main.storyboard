@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aE4-mk-cT6">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" translatesAutoresizingMaskIntoConstraints="NO" id="ywB-kB-JEa">
-                                <rect key="frame" x="0.0" y="20" width="375" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="992"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STEP 1 OF 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uXs-sO-lYB" customClass="R1C3Label" customModule="Typography_Style_Guide" customModuleProvider="target">
                                         <rect key="frame" x="30" y="20" width="68.5" height="12"/>
@@ -59,7 +59,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="etZ-7c-8il" firstAttribute="top" secondItem="0ca-cD-dk7" secondAttribute="top" constant="20" id="0dD-SZ-iX9"/>
                                             <constraint firstItem="etZ-7c-8il" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="j0c-MQ-Whp" secondAttribute="trailing" id="1Oo-GS-Vmr"/>
@@ -98,7 +98,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="tCv-2r-KM6" firstAttribute="leading" secondItem="m4s-Yu-qDQ" secondAttribute="leading" id="Bb0-sr-x9V"/>
                                             <constraint firstItem="t3I-WX-BQY" firstAttribute="top" secondItem="tCv-2r-KM6" secondAttribute="bottom" constant="8" id="Xfp-8Z-4tg"/>
@@ -137,7 +137,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="7ph-dW-GVb" secondAttribute="bottom" id="3lV-GJ-jT5"/>
                                             <constraint firstItem="K1S-d2-aNd" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="7ph-dW-GVb" secondAttribute="trailing" id="Neg-nr-kfm"/>
@@ -176,7 +176,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="Rcf-Q0-vJE" firstAttribute="leading" secondItem="wIc-b3-wDg" secondAttribute="leading" id="6lI-eB-tLO"/>
                                             <constraint firstItem="Rcf-Q0-vJE" firstAttribute="leading" secondItem="SPI-hN-bNo" secondAttribute="leading" id="BFV-Dw-XxS"/>
@@ -215,7 +215,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="nwg-kp-MPG" firstAttribute="leading" secondItem="4LW-5u-wmU" secondAttribute="leading" id="Mlr-ga-DAs"/>
                                             <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="nwg-kp-MPG" secondAttribute="trailing" id="SF1-Pb-y07"/>
@@ -254,7 +254,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="3MX-Kn-hqC" firstAttribute="top" secondItem="ZJh-Jp-LWF" secondAttribute="top" constant="20" id="1fb-OW-JFn"/>
                                             <constraint firstAttribute="bottom" secondItem="aja-Kn-uhg" secondAttribute="bottom" id="ImM-xn-EpS"/>
@@ -293,7 +293,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="RZ2-aW-Ziq" firstAttribute="leading" secondItem="XyP-RM-fd0" secondAttribute="leading" id="MnZ-3y-Ymq"/>
                                             <constraint firstItem="RDE-ps-4Fs" firstAttribute="top" secondItem="RZ2-aW-Ziq" secondAttribute="bottom" constant="8" id="QD1-GC-jjg"/>
@@ -332,7 +332,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="n68-A7-ifo" secondAttribute="trailing" id="5NZ-CT-R2a"/>
                                             <constraint firstItem="wvK-ia-CGN" firstAttribute="top" secondItem="n6A-ex-tdV" secondAttribute="bottom" constant="8" id="8dT-Z1-MNs"/>
@@ -349,7 +349,6 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="0ca-cD-dk7" secondAttribute="trailing" constant="30" id="0HA-bt-3EF"/>
                                     <constraint firstItem="7fM-GE-wOU" firstAttribute="top" secondItem="0ca-cD-dk7" secondAttribute="bottom" constant="40" id="3Lo-Jq-TlX"/>
@@ -396,12 +395,38 @@
                             <constraint firstAttribute="trailing" secondItem="XyP-RM-fd0" secondAttribute="trailing" constant="30" id="zcX-XX-d0T"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="e3m-LL-CDw">
+                        <barButtonItem key="leftBarButtonItem" image="back_icon" id="bzw-7b-NSr"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="1100"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="972" y="37.781109445277366"/>
+        </scene>
+        <!--White Styled Navigation Controller-->
+        <scene sceneID="Wxc-pL-clF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aE4-mk-cT6" customClass="WhiteStyledNavigationController" customModule="Typography_Style_Guide" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Aqj-rC-TtH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="iou-pP-2Y4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PSJ-VQ-dri" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="back_icon" width="14" height="18"/>
+    </resources>
 </document>

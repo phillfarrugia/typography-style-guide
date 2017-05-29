@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-public enum TextStyleRow {
+public enum TextStyleRow: Int {
     
     /// Row 1
-    case r1
+    case r1 = 1
     
     /// Row 2
     case r2

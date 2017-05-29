@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-public enum TextStyleColumn {
+public enum TextStyleColumn: Int {
     
     /// Column 1
-    case c1
+    case c1 = 1
     
     /// Column 2
     case c2

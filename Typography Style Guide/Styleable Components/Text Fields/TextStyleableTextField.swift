@@ -15,8 +15,16 @@ import UIKit
 @IBDesignable
 internal class TextStyleableTextField: UITextField, TextStyleable {
     
-    public var textStyle: TextStyle {
-        return TextStyle(row: .r6, column: .c2)
+    @IBInspectable var styleRow: Int = 1 {
+        didSet {
+            applyStyle()
+        }
+    }
+
+    @IBInspectable var styleColumn: Int = 1 {
+        didSet {
+            applyStyle()
+        }
     }
     
     override public var text: String? {

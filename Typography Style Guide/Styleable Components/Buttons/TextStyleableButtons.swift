@@ -15,10 +15,18 @@ import UIKit
 @IBDesignable
 internal class StyleableButton: UIButton, TextStyleable {
     
-    var textStyle: TextStyle {
-        return TextStyle(row: .r1, column: .c1)
+    @IBInspectable var styleRow: Int = 1 {
+        didSet {
+            applyStyle()
+        }
     }
-    
+
+    @IBInspectable var styleColumn: Int = 1 {
+        didSet {
+            applyStyle()
+        }
+    }
+
     /// Overrides the designated initializer in
     /// order to apply custom styles during initialization,
     /// for use as an IBDesignable.
@@ -43,16 +51,7 @@ internal class StyleableButton: UIButton, TextStyleable {
     override func prepareForInterfaceBuilder() {
         applyStyle()
     }
-    
-    /// Applys custom styles to this component. Override
-    /// this method and call super.applyStyle() in order to
-    /// apply custom styles to your subclass as an IBDesignable.
-    func applyStyle() {
-        /// Apply styles to all UILabels here, if required.
-        /// Override this method to apply styles specific to
-        /// your sublcass component.
-    }
-    
+
 }
 
 /// A default implementation of a TextStyleable UILabel element
